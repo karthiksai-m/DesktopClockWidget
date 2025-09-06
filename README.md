@@ -19,18 +19,7 @@
 
 
 * Dynamic positioning: Default top-center, configurable
-* Self-contained MSI installer: Includes EXE, DLLs, and settings
-
-
-
-##### Installation
-
-
-
-* Run the DesktopClockInstaller.msi
-* Follow the installer wizard: choose install folder, create shortcuts
-* Launch via Desktop or Start Menu shortcut
-
+  
 
 
 ##### Usage
@@ -41,12 +30,3 @@
 * F9: Toggle auto-start at Windows startup
 
 
-
-##### Development Setup
-
-
-
-* Open the solution in Visual Studio 2022/2023
-* Build the clock project (Release)
-* Add / verify Primary Output in the Setup Project
-* Rebuild Setup Project to generate MSI
